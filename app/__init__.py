@@ -11,7 +11,6 @@ from flask_cors import CORS
 from helpers import JSONEncoder
 
 app = Flask(__name__)
-# app._static_folder = 'templates/static'
 CORS(app)
 
 app.register_blueprint(site)
