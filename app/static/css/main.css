@@ -17,7 +17,7 @@ body {
   transition: all 0.5s ease;
 }
 .navv:hover{
-  color:aqua;
+  color:#6edbff;
   border-bottom: 2px solid white;
   transition: all 0.5s ease;
 }
@@ -36,20 +36,25 @@ img{
   font-weight: 500;
   font-size: 6rem;
   margin: 5% 0% 1% 0;
+  text-shadow: -1px -1px 7px #ffffff73, 1px 1px 5px rgba(94, 104, 121, 0.288);
 }
 .hero_subtitle{
   color: white;
   font-size: 25px;
   margin-bottom: 2%;
 }
-button{
+.hero_button{
   width: 90px;
   border-radius: 50px;
   padding: 20px 30px 20px 30px;
   color: #2352ae;
   background-color: rgb(229, 227, 244);
   letter-spacing: 2px;
-  /* border-bottom: 2px solid white; */
+  transition: all 0.4s ease;
+}
+.hero_button:hover{
+  background-color:#3471eb;
+  color:white;
 }
 .back{
   background-image: radial-gradient(farthest-side at 5% 25%, #3c6dce, #222744);
@@ -68,4 +73,22 @@ button{
 .profile_subtitle{
   color: white;
   text-align: center;
+}
+
+/* Sign-up Page */
+.sign_up_title{
+  color: white;
+}
+
+/* Sign-in Page */
+.sign_in_title{
+  color: white;
+}
+#pass-field{
+  color:white;
+  margin-bottom: 10px;
+}
+#email-field{
+  color:white;
+  margin-bottom: 10px;
 }
